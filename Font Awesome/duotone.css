@@ -1064,6 +1064,16 @@
   opacity: var(--opacity);
 }
 
+.material-icons.photo_library:before {
+  content: "\f03e";
+  position: absolute;
+}
+
+.material-icons.photo_lbrary::after {
+  content: "\10f03e";
+  opacity: var(--opacity);
+}
+
 .material-icons.arrow_upward::before {
   content: "\f062";
   position: absolute;
